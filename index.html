@@ -5,16 +5,17 @@
     <title>Map One Corporation</title>
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/script.js"></script>
   </head>
-  <body>
+  <body id="body">
 
 <!- ================MENU BAR================ ->
     <div class="menubar">
       <img src="./resources/logo.jpg" alt="Map One Corporation">
       <nav class="">
         <ul class="nav">
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT</a></li>
+          <li><a onclick="homeFunction()" href="#">HOME</a></li>
+          <li><a onclick="aboutFunction()" href="#">ABOUT</a></li>
           <li><a href="#">SERVICES</a></li>
           <li><a href="#">PRODUCTS</a></li>
           <li><a href="#">CAREERS</a></li>
@@ -23,16 +24,46 @@
       </nav>
     </div>
 <!- ================BANNER================ ->
-    <div class="banner">
+    <div id="banner" class="banner">
       <div class="">
         <p class="bannermsg">Be the game changer.</p>
         <button type="button" class="buttonbanner">GET STARTED</button>
       </div>
     </div>
 
+<!- ================ABOUT================ ->
+<div id="aboutus" class="aboutus">
+  <div class="abouttitle">
+    <p><a class="what">WHAT</a> ABOUT US</p>
+  </div>
+
+  <div class="about1">
+    <p>Map One Corporation is a company which was organized and established based
+      on the existing virtues of the laws of the Republic of the Philippines and
+      has passed the licensing requirements of the Securities and Exchange
+      Commission. The company started its operation in 2015 with its corporate
+      office located at 35 F & 36F Penthouse Units 1,2 and 4 Eco Tower Building,
+      32nd Street corner 9th Avenue, The Fort, BGC Taguig City, 1634 Philippines.
+    </p>
+  </div>
+
+  <div class="about2">
+    <p>We are on a mission to drive digital transformation across various
+      organizations and industry segments through upskilling and reskilling Human
+      Capital of the 21st Century.<br><br>
+      Empowering students and professors towards state-of-the-art digital learning
+      experiences<br><br>
+      Taking professional training businesses to new heights and additional
+      revenue streams like never before<br><br>Building and Accelerating
+      Technology Workforce Skills Development towards Future-Ready Jobs</p>
+  </div>
+
+</div>
+
+
 <!- ================FEEDBACK================ ->
 
-    <div class="feedback">
+    <div id="feedback" class="feedback">
       <p class="feedbacktitle"><a class="what">WHAT</a> <br> DO OUR PARTNERS SAY ABOUT US?</p>
       <p class="fb1">“The platform looks good in terms of interface style and it is user
         friendly as well. Most of the functions & features are there for learner

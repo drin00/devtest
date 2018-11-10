@@ -210,3 +210,34 @@ footer p a, footer p a:visited{
   object-fit: contain;
   padding-right: 1.2rem;
 }
+
+/*
+############################
+About us section
+############################
+ */
+
+.aboutus{
+  display: none;
+  position: relative;
+  top: 10.5rem;
+  text-align: center;
+  margin:0;
+  padding: 1.5rem 0 15rem 0;
+}
+
+.abouttitle{
+  font-size: 5rem;
+}
+
+.about1, .about2{
+  width: 80%;
+  margin: auto;
+  padding: 3rem 2rem;
+  line-height: 2;
+}
+
+.about2{
+  background-color: #454545;
+  color: white;
+}
