@@ -1,3 +1,8 @@
+
+*{
+  cursor: pointer;
+}
+
 html{
   width: 100%;
   font-family: courier new;
@@ -49,6 +54,7 @@ menu bar section
 
 .nav li a:hover {
   color: red;
+  cursor: default;
 }
 
 /*
