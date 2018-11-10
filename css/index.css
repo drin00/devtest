@@ -1,0 +1,110 @@
+html{
+  width: 100%;
+  font-family: courier new;
+  font-size: 11.5px;
+  font-weight: bold;
+}
+body{
+  margin: 0;
+  font-size: 1.5rem;
+}
+.menubar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  height: 10.5rem;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
+  opacity: 0.8;
+}
+.menubar img{
+  padding-left: 5rem;
+}
+nav{
+}
+.nav{
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding-right: 5rem;
+}
+
+.nav li{
+  padding: 0 2.5rem 0 2.5rem;
+}
+
+.banner{
+  position: relative;
+  top: 10.5rem;
+  width: 100%;
+  background-image: url("../resources/p1.png");
+  height: 50rem;
+  background-position: center;
+  margin:0;
+  display: flex;
+  align-items:center;
+}
+
+.banner p{
+}
+
+.bannermsg{
+  font-size: 6rem;
+  color: white;
+  margin-left: 7.5rem;
+}
+
+.buttonbanner{
+  color: white;
+  background-color: Transparent;
+  font-family:inherit;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 7.5rem;
+  padding: 2.5rem;
+  width: max-content;
+  border: 0.5rem solid white;
+}
+.feedback{
+  position: relative;
+  top: 10.5rem;
+  margin: 0;
+  border: 1px solid blue;
+  padding: 5rem 7.5rem;
+}
+
+.feedbacktitle{
+  font-size: 4rem;
+  color: white;
+  background-color: #454545;
+  height: 8.7rem;
+  padding: 1rem;
+}
+
+.what{
+  color: #19C4D2;
+}
+
+.fb1{
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.fbname{
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fbname img{
+  width: 62px;
+  height: 59px;
+  padding: 0.5rem;
+}
+
+.fbname p{
+  padding: 0.5rem;
+}
