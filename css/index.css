@@ -31,11 +31,12 @@ menu bar section
   width: 100%;
   max-width: 100%;
   z-index: 1;
-  background-color: #F0EFEF;
+  background-color: white;
   opacity: 0.9;
 }
 .menubar img{
-  padding-left: 4rem;
+  padding-left: 6rem;
+  width: 25%;
 }
 
 .nav{
