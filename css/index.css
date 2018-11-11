@@ -22,7 +22,7 @@ menu bar section
 
 .menubar{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   position: fixed;
   left: 0;
@@ -42,9 +42,7 @@ menu bar section
   display: flex;
   justify-content: flex-end;
   list-style: none;
-  position: relative;
-  right: 5rem;
-  width: 100%;
+  padding-left: 18.5rem;
 }
 
 .nav li{
