@@ -116,6 +116,7 @@ banner section
 
 .bannermsg{
   font-size: 6rem;
+  font-weight: bold;
   color: white;
   margin-left: 7.5rem;
 }
@@ -195,6 +196,7 @@ footer section
    position: relative;
    top: 10.5rem;
    font-size: 5rem;
+   font-weight: bold;
    padding-left: 7.5rem;
  }
 
