@@ -6,7 +6,6 @@
 html{
   font-family: avenir;
   font-size: 11.5px;
-  font-weight: bold;
 }
 body{
   margin: 0;
@@ -24,6 +23,7 @@ menu bar section
  */
 
 .menubar{
+  font-weight: bold;
   display: flex;
   justify-content: space-between;
   align-items: center;
