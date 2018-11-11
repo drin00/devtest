@@ -32,6 +32,7 @@ menu bar section
   z-index: 1;
   background-color: #F0EFEF;
   opacity: 0.9;
+  flex-shrink: 1;
 }
 .menubar img{
   padding-left: 5rem;
