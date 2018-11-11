@@ -3,6 +3,11 @@
   cursor: pointer;
 }
 
+:not(html, #top-bar) {
+     -webkit-transform: translate3d(0, 0, 0);
+     transform: translate3d(0, 0, 0)
+}
+
 html{
   width: 100%;
   font-family: courier new;
