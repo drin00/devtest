@@ -39,9 +39,14 @@ menu bar section
   width: 30rem;
 }
 
+.menubar img:hover{
+  cursor: pointer;
+}
+
 .nav{
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   list-style: none;
   padding-right: 5rem;
   flex-wrap: wrap;
@@ -56,13 +61,18 @@ menu bar section
   color: black;
 }
 
+.nav li a{
+  transition: font-size 0.7s ;
+  transform-origin: bottom;
+}
+
 .nav li a:hover{
   color: red;
   cursor: pointer;
 }
 .nav li a:focus{
   color: red;
-  font-size: 3rem;
+  font-size: 2rem;
   border-bottom: 1px solid black;
 }
 
@@ -77,11 +87,23 @@ banner section
   top: 10.5rem;
   width: 100%;
   background-image: url("../resources/p1.png");
+  background-size: contain;
   height: 50rem;
   background-position: center;
   margin:0;
   display: flex;
   align-items:center;
+  animation-name: bannerimage;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: ease-in-out;
+
+}
+
+@keyframes bannerimage {
+  from {background-image: url("../resources/p1.png");}
+  to {background-image: url("../resources/banner2.png")}
 }
 
 .banner p{
