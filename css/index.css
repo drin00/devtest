@@ -1,6 +1,6 @@
 
 *{
-  cursor: pointer;
+  cursor: default;
 }
 
 html{
@@ -55,9 +55,13 @@ menu bar section
   color: black;
 }
 
-.nav li a:hover {
+.nav li a:hover{
   color: red;
-  cursor: default;
+  cursor: pointer;
+}
+.nav li a:focus{
+  color: red;
+  border-bottom: 1px solid black;
 }
 
 /*
