@@ -61,6 +61,7 @@ menu bar section
 }
 .nav li a:focus{
   color: red;
+  font-size: 3rem;
   border-bottom: 1px solid black;
 }
 
