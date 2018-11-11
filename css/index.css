@@ -25,6 +25,8 @@ menu bar section
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  left: 0;
+  top: 0;
   height: 10.5rem;
   width: 100%;
   z-index: 1;
@@ -33,14 +35,12 @@ menu bar section
 }
 .menubar img{
   padding-left: 5rem;
-  max-width: 30%;
 }
 
 .nav{
   display: flex;
   justify-content: flex-end;
   list-style: none;
-  max-width: 95%;
   padding-right: 5rem;
 }
 
