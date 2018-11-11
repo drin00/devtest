@@ -13,3 +13,15 @@ function homeFunction(){
   document.getElementById("feedback").style.removeProperty('display');
 
 }
+
+window.onscroll = function() {shrinkNavBar()};
+
+function shrinkNavBar() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("menubar").style.height = "5.5rem";
+    document.getElementById("logo").style.width = "18rem";
+  } else {
+    document.getElementById("menubar").style.removeProperty('height');
+    document.getElementById("logo").style.removeProperty('width');
+  }
+}

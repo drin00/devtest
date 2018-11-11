@@ -36,10 +36,12 @@ menu bar section
   z-index: 1;
   background-color: white;
   opacity: 0.9;
+  transition: height 0.6s;
 }
 .menubar img{
   padding-left: 6rem;
   width: 30rem;
+  transition: width 0.6s;
 }
 
 .menubar img:hover{
