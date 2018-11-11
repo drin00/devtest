@@ -1,7 +1,7 @@
 function aboutFunction(){
-  document.getElementById("aboutus").style.display="block";
-  document.getElementById("banner").style.display="none";
-  document.getElementById("feedback").style.display="none";
+  document.getElementById("aboutus").style="display:block;";
+  document.getElementById("banner").style="display:none;";
+  document.getElementById("feedback").style="display:none;";
 }
 
 function homeFunction(){
