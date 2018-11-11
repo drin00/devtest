@@ -29,10 +29,10 @@ menu bar section
   top: 0;
   height: 10.5rem;
   width: 100%;
+  max-width: 100%;
   z-index: 1;
   background-color: #F0EFEF;
   opacity: 0.9;
-  flex-shrink: 1;
 }
 .menubar img{
   padding-left: 5rem;
