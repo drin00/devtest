@@ -4,7 +4,7 @@
 }
 
 html{
-  font-family: courier new;
+  font-family: avenir;
   font-size: 11.5px;
   font-weight: bold;
 }
@@ -106,7 +106,7 @@ banner section
 
 /*
 ############################
-feeback section
+feedback section
 ############################
  */
 
@@ -121,7 +121,7 @@ feeback section
   font-size: 4rem;
   color: white;
   background-color: #454545;
-  height: 8.7rem;
+  height: 11rem;
   padding: 1rem;
 }
 
