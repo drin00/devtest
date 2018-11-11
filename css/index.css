@@ -3,11 +3,6 @@
   cursor: pointer;
 }
 
-:not(html, #top-bar) {
-     -webkit-transform: translate3d(0, 0, 0);
-     transform: translate3d(0, 0, 0)
-}
-
 html{
   width: 100%;
   font-family: courier new;
@@ -36,6 +31,8 @@ menu bar section
   z-index: 1;
   background-color: #F0EFEF;
   opacity: 0.9;
+  top:0;
+  left:0;
 }
 .menubar img{
   padding-left: 5rem;
