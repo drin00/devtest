@@ -62,8 +62,8 @@ menu bar section
 }
 
 .nav li a{
+  -webkit-transition: font-size 0.7s;
   transition: font-size 0.7s ;
-  transform-origin: bottom;
 }
 
 .nav li a:hover{
