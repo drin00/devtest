@@ -4,7 +4,6 @@
 }
 
 html{
-  width: 100%;
   font-family: courier new;
   font-size: 11.5px;
   font-weight: bold;
@@ -31,17 +30,17 @@ menu bar section
   z-index: 1;
   background-color: #F0EFEF;
   opacity: 0.9;
-  top:0;
-  left:0;
 }
 .menubar img{
   padding-left: 5rem;
+  max-width: 30%;
 }
 
 .nav{
   display: flex;
   justify-content: flex-end;
   list-style: none;
+  max-width: 95%;
   padding-right: 5rem;
 }
 
