@@ -36,12 +36,12 @@ menu bar section
   z-index: 1;
   background-color: white;
   opacity: 0.9;
-  transition: height 0.6s;
+  transition: height 0.3s ease;
 }
 .menubar img{
   padding-left: 6rem;
   width: 30rem;
-  transition: width 0.6s;
+  transition: width 0.8s ease;
 }
 
 .menubar img:hover{
@@ -92,7 +92,7 @@ banner section
   top: 10.5rem;
   width: 100%;
   background-image: url("../resources/p1.png");
-  background-size: contain;
+  background-size: cover;
   height: 50rem;
   background-position: center;
   margin:0;
